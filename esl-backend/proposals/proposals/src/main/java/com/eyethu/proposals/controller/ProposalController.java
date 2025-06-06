@@ -19,6 +19,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/proposals")
 public class ProposalController {
+    
     @Autowired
     private ProposalRepository proposalRepository;
     @Autowired
