@@ -3,6 +3,7 @@ package com.eyethu.proposals.dto;
 import java.util.List;
 
 public class ProposalRequest {
+    
     private String title;
     private String description;
     private List<String> options;
